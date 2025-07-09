@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-blue-600 text-white p-4 shadow">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">MyCompany</h1>
+      <nav class="space-x-4">
+        <a href="#home" class="hover:underline">Beranda</a>
+        <a href="#about" class="hover:underline">Tentang</a>
+        <a href="#services" class="hover:underline">Layanan</a>
+        <a href="#contact" class="hover:underline">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="bg-blue-100 py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4">Selamat Datang di MyCompany</h2>
+    <p class="text-lg">Kami menyediakan solusi digital terbaik untuk bisnis Anda</p>
+    <a href="#contact" class="mt-6 inline-block bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700">Hubungi Kami</a>
+  </section>
+
+  <!-- Tentang Kami -->
+  <section id="about" class="py-16 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Tentang Kami</h3>
+      <p class="max-w-2xl mx-auto text-gray-600">MyCompany adalah perusahaan teknologi yang berfokus pada pengembangan solusi digital inovatif untuk berbagai sektor industri. Kami berkomitmen memberikan layanan terbaik untuk kebutuhan bisnis Anda.</p>
+    </div>
+  </section>
+
+  <!-- Layanan -->
+  <section id="services" class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-10">Layanan Kami</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4">
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Pengembangan Website</h4>
+          <p class="text-gray-600">Website modern, responsif, dan cepat.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Aplikasi Mobile</h4>
+          <p class="text-gray-600">Aplikasi Android & iOS yang andal.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Konsultasi IT</h4>
+          <p class="text-gray-600">Solusi dan strategi teknologi untuk bisnis Anda.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimoni -->
+  <section class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-8">Apa Kata Klien Kami</h3>
+      <div class="max-w-xl mx-auto bg-white p-6 rounded shadow">
+        <p class="italic text-gray-600">"Pelayanan yang sangat profesional dan cepat. Sangat puas dengan hasilnya!"</p>
+        <h4 class="mt-4 font-bold">— Budi Santoso, CEO StartupXYZ</h4>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="py-16">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">Hubungi Kami</h3>
+      <p class="text-gray-600 mb-6">Isi form berikut untuk menghubungi tim kami.</p>
+      <form class="max-w-xl mx-auto space-y-4">
+        <input type="text" placeholder="Nama" class="w-full p-2 border rounded" required>
+        <input type="email" placeholder="Email" class="w-full p-2 border rounded" required>
+        <textarea placeholder="Pesan" class="w-full p-2 border rounded" rows="4" required></textarea>
+        <button type="submit" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Kirim Pesan</button>
+      </form>
+    </div>
+  </section>
+
+ 
+  <footer class="bg-blue-600 text-white text-center py-4">
+    <p>&copy; 2025 MyCompany. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
